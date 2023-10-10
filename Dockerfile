@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
  
-EXPOSE 80
+EXPOSE 7980
 
 RUN apt-get update && \
     chmod 775 server index.js package.json start.sh /app &&\
