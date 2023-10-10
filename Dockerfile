@@ -4,8 +4,6 @@ WORKDIR /app
 
 COPY . .
  
-EXPOSE 7860
-
 EXPOSE 80
 
 RUN apt-get update && \
